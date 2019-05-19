@@ -1,19 +1,5 @@
 # Imagen de docker con Ubuntu, Wine, Metatrader, ZeroMq, VNC y Fluxbox
 
-
-Clonar este directorio y su contenido.
-
-Levantar la imagen con 
-
-`docker build . -t headless-metatrader4:latest_vnc`
-
-Modificar del docker-compose.yml para indicar el directorio
- local de Darwinex_MT4 e inciar el contenedor con
- 
- `docker-compose up`
- 
- Se puede conectar con VNC usando la contrase¤a 3579  (se puede modificar en 
- el archivo run_mt.sh)
  
  ## Volumen con MetaTrader
  
@@ -41,13 +27,24 @@ Copiamos las carpetas *mql-zmq-master/Include/Mql* y *mql-zmq-master/Include/Zmq
  En el directorio *MQL4/Libraries*  copiamos los archivos *libsodium.dll* y *libzmq.dll* que se encuentran en el extraido *mql-zmq-master/Library/MT4*.
  
  Descarga del repositorio el archivo *DWX_ZeroMQ_Server_vX.Y.Z_RCx.mq4* y lo guardamos en el directorio *MQL4/Experts*.
+ 
+ Copiamos el archivo *setup.ini* en el mismo directorio que *terminal.exe* y lo editamos para incluir nuestro usuario, password y servidor.
+  
+## Docker
+
+ Modificar del docker-compose.yml para indicar el directorio
+local de Darwinex_MT4 e inciar el contenedor con
+ 
+ `docker-compose up`
+ 
+  Se puede conectar con VNC usando la contrase¤a 3579  (se puede modificar en 
+ el archivo run_mt.sh)
+
   
   
   
   
-  
-  
-  Copiamos el archivo *setup.ini* en el mismo directorio que *terminal.exe* y lo editamos para incluir nuestro usuario, password y servidor.
+ 
   
   
   
