@@ -37,7 +37,7 @@ local de Darwinex_MT4 e inciar el contenedor con
  
  `docker-compose up`
  
-  Se puede conectar con VNC usando la contrase¤a 3579  (se puede modificar en 
+  Se puede conectar con VNC usando la contraseña 3579  (se puede modificar en 
  el archivo run_mt.sh)
 
   
