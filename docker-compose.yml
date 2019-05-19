@@ -1,0 +1,21 @@
+
+metatrader:
+  image: headless-metatrader4:latest_vnc
+  volumes:
+    - /<path to the folder>/Darwinex_MT4:/home/winer/.wine/drive_c/mt4
+  ports:
+    - "5900:5900" 
+    - "32768:32768" 
+    - "32769:32769" 
+    - "32770:32770"
+  cap_add:
+    - SYS_PTRACE    
+
+  
+
+  
+  
+    
+    
+    
+     

@@ -1,0 +1,13 @@
+PROJECT_NAME="DWX_ZeroMQ_MT4_Server"
+ZEROMQ_PROTOCOL="tcp"
+HOSTNAME="*"
+PUSH_PORT=32768
+PULL_PORT=32769
+PUB_PORT=32770
+MILLISECOND_TIMER=1
+MagicNumber=123456
+MaximumOrders=1
+MaximumLotSize=0.01
+MaximumSlippage=3
+DMA_MODE=true
+Publish_MarketData=true

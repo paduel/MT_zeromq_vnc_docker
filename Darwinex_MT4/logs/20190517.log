@@ -1,0 +1,82 @@
+0	11:22:49.217	Migration: data to 'C:\Program Files (x86)\Darwinex MT4' migration started
+0	11:22:49.217	Migration: experts migration from 'C:\Program Files (x86)\Darwinex MT4' to 'C:\Program Files (x86)\Darwinex MT4' started
+0	11:22:49.217	Migration: experts folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Experts'
+0	11:22:49.217	Migration: include folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\include' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Include'
+0	11:22:49.217	Migration: indicators folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\indicators' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Indicators'
+0	11:22:49.217	Migration: scripts folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\scripts' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Scripts'
+0	11:22:49.217	Migration: expert logs folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\logs' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Logs'
+0	11:22:49.217	Migration: expert files folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\files' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Files'
+0	11:22:49.217	Migration: libraries folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\libraries' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Libraries'
+0	11:22:49.217	Migration: expert presets folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\presets' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Presets'
+0	11:22:49.217	Migration: expert images folder updated from 'C:\Program Files (x86)\Darwinex MT4\experts\images' to 'C:\Program Files (x86)\Darwinex MT4\MQL4\Images'
+0	11:22:49.217	Migration: experts migration finished
+0	11:22:49.217	Migration: data migration finished, no virtual folder
+0	11:22:49.217	LiveUpdate: update C:\Program Files (x86)\Darwinex MT4\MQL4 folder started
+0	11:22:49.771	LiveUpdate: update C:\Program Files (x86)\Darwinex MT4\MQL4 folder finished
+0	11:22:49.856	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	11:22:49.856	Windows 10 Pro x64, IE 11, UAC, 8 x Intel Core i7-4710MQ  @ 2.50GHz, Memory: 9949 / 16207 Mb, Disk: 8 / 153 Gb, GMT+1
+0	11:22:49.856	Data Folder: C:\Program Files (x86)\Darwinex MT4
+0	11:22:50.705	Sources recompilation started
+0	11:23:00.364	Sources recompilation finished (28 compiled in 9656 msec)
+0	11:24:08.448	'2088947786': login on Darwinex-Demo through primary (ping: 40.42 ms)
+0	11:24:08.930	'2088947786': previous successful authorization performed from 77.225.113.118
+0	11:24:20.088	'2088947786': ping to current access point primary is 39.01 ms
+0	11:24:36.260	Automated trading enabled
+0	11:24:54.156	Darwinex build 1170 stopped
+0	11:28:44.259	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	11:28:44.259	Windows 10 Pro x64, IE 11, UAC, 8 x Intel Core i7-4710MQ  @ 2.50GHz, Memory: 9751 / 16207 Mb, Disk: 8 / 153 Gb, GMT+1
+0	11:28:44.259	Data Folder: C:\Program Files (x86)\Darwinex MT4
+0	11:28:44.785	Sources recompilation started
+0	11:28:46.411	Sources recompilation finished (1 compiled in 1625 msec)
+0	11:28:47.266	'2088947786': login on Darwinex-Demo through primary (ping: 39.01 ms)
+0	11:28:47.723	'2088947786': previous successful authorization performed from 77.225.113.118
+2	11:29:00.342	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+2	11:29:12.647	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: removed
+2	11:29:16.628	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+0	11:35:25.057	'2088947786': order buy market 0.01 EURUSD sl: 0.00000 tp: 0.00000
+0	11:35:25.173	'2088947786': order was opened : #89147191 buy 0.01 EURUSD at 1.11649 sl: 0.00000 tp: 0.00000
+0	11:35:25.173	'2088947786': modify order #89147191 buy 0.01 EURUSD at 1.11649 sl: 0.00000 tp: 0.00000 -> sl: 1.11149 tp: 1.12149
+0	11:35:25.273	'2088947786': order #89147191 buy 0.01 EURUSD at 1.11649 was modified -> sl: 1.11149 tp: 1.12149
+0	11:42:59.972	Automated trading disabled
+3	11:42:59.972	Automated trading disabled because the account has been changed
+1	11:43:02.826	'90040874': connect failed [Cuenta no válida]
+2	11:45:25.874	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: removed
+0	11:45:26.159	Darwinex build 1170 stopped
+0	16:45:33.143	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	16:45:33.145	Microsoft Windows 7 x86, IE 11, 8 x Intel Pentium 4  2.40GHz, Memory: 12941 / 15872 Mb, Disk: 8 / 153 Gb, GMT+0
+0	16:45:33.145	Data Folder: C:\mt4
+2	16:45:34.717	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+1	17:00:03.112	'90040874': connect failed [Invalid account]
+0	17:01:28.451	'2088947786': login on Darwinex-Demo through primary 2 (ping: 38.37 ms)
+0	17:01:28.925	'2088947786': previous successful authorization performed from 77.225.113.118
+0	17:01:41.052	'2088947786': ping to current access point primary 2 is 33.83 ms
+2	17:02:09.641	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: removed
+0	17:02:10.354	Darwinex build 1170 stopped
+0	17:17:16.560	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	17:17:16.561	Microsoft Windows 7 x86, IE 11, 8 x Intel Pentium 4  2.40GHz, Memory: 11934 / 15872 Mb, Disk: 8 / 153 Gb, GMT+0
+0	17:17:16.561	Data Folder: C:\mt4
+2	17:17:17.997	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+0	17:40:27.136	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	17:40:27.138	Microsoft Windows 7 x86, IE 11, 8 x Intel Pentium 4  2.40GHz, Memory: 11492 / 15872 Mb, Disk: 8 / 153 Gb, GMT+0
+0	17:40:27.138	Data Folder: C:\mt4
+2	17:40:28.612	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+0	17:54:11.327	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	17:54:11.328	Microsoft Windows 7 x86, IE 11, 8 x Intel Pentium 4  2.40GHz, Memory: 11392 / 15872 Mb, Disk: 8 / 153 Gb, GMT+0
+0	17:54:11.328	Data Folder: C:\mt4
+2	17:54:12.787	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+0	18:24:01.259	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	18:24:01.261	Microsoft Windows 7 x86, IE 11, 8 x Intel Pentium 4  2.40GHz, Memory: 11293 / 15872 Mb, Disk: 8 / 153 Gb, GMT+0
+0	18:24:01.261	Data Folder: C:\mt4
+2	18:24:02.766	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+0	18:37:36.535	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	18:37:36.536	Microsoft Windows 7 x86, IE 11, 8 x Intel Pentium 4  2.40GHz, Memory: 11105 / 15872 Mb, Disk: 8 / 153 Gb, GMT+0
+0	18:37:36.536	Data Folder: C:\mt4
+2	18:37:37.937	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+0	19:12:48.461	Darwinex build 1170 started (Tradeslide Trading Tech Limited)
+0	19:12:48.463	Microsoft Windows 7 x86, IE 11, 8 x Intel Pentium 4  2.40GHz, Memory: 11030 / 15872 Mb, Disk: 8 / 153 Gb, GMT+0
+0	19:12:48.463	Data Folder: C:\mt4
+2	19:12:49.991	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: loaded successfully
+0	19:12:50.538	'2088947786': login on Darwinex-Demo through primary 2 (ping: 33.83 ms)
+0	19:12:50.882	'2088947786': previous successful authorization performed from 46.234.153.139
+2	19:18:16.320	Expert DWX_ZeroMQ_Server_v2.0.1_RC8 EURUSD,H4: removed
+0	19:18:19.823	Darwinex build 1170 stopped
