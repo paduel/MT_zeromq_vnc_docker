@@ -1,6 +1,6 @@
 
 metatrader:
-  image: headless-metatrader4:latest_vnc
+  image:  paduel/metadrader_vnc:latest
   volumes:
     - /<path to the folder>/Darwinex_MT4:/home/winer/.wine/drive_c/mt4
   ports:
