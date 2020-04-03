@@ -59,7 +59,7 @@ ENV WINEARCH=win32 \
     SCREEN_WHD=1366x768x24
 ENV MT4DIR=$WINEPREFIX/drive_c/mt4
 
-# @TODO Install actual versions of Mono and Gecko dynamically
+
 ADD cache $HOME/.cache
 USER root
 RUN chown $USER:$USER -R $HOME/.cache
@@ -70,6 +70,14 @@ RUN set -ex; \
     /docker/waitonprocess.sh wineserver; \
     winetricks --unattended dotnet40; \
     /docker/waitonprocess.sh wineserver
+
+# Download gecko and mono installers
+USER root
+COPY download_gecko_and_mono.sh /root/download_gecko_and_mono.sh
+RUN set -e; \
+    chmod a+rx /root/download_gecko_and_mono.sh; \   
+    /root/download_gecko_and_mono.sh
+
 
 USER root
 COPY run_mt.sh screenshot.sh /docker/
