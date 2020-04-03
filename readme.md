@@ -33,6 +33,10 @@ Copiamos las carpetas *mql-zmq-master/Include/Mql* y *mql-zmq-master/Include/Zmq
   
 ## Docker
 
+Levantar la imagen con
+
+`docker build . -t paduel/metadrader_vnc:latest`
+
  Modificar del docker-compose.yml para indicar el directorio
 local de Darwinex_MT4 e inciar el contenedor con
  
