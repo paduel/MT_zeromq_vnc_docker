@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Credits, from https://github.com/scottyhardy/docker-wine
 # Scrapes the WineHQ download pages for latest versions of mono and gecko to download
 
 get_hrefs () {
