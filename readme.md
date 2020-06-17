@@ -28,7 +28,7 @@ Copiamos las carpetas *mql-zmq-master/Include/Mql* y *mql-zmq-master/Include/Zmq
  
  Descarga del repositorio el archivo *DWX_ZeroMQ_Server_vX.Y.Z_RCx.mq4* y lo guardamos en el directorio *MQL4/Experts*.
  
- Copiamos el archivo *setup.ini* en el mismo directorio que *terminal.exe* y lo editamos para incluir nuestro usuario, password y servidor.
+ Copiamos el archivo *startup.ini* en el mismo directorio que *terminal.exe* y lo editamos para incluir nuestro usuario, password y servidor.
  Igualmente copiamos el archivo *Preset.set* en el directorio *MQL4/Presets/* con la configuración del EA, que puede ser editada según se necesite.
   
 ## Docker
